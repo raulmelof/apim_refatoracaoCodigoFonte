@@ -1,0 +1,62 @@
+cd C:\Users\raul.farias\Documents\facul\6 semestre\engs\refatoracaoCodigoFonte; JAVA_HOME=C:\\Users\\raul.farias\\Downloads\\Oracle_JDK-24 cmd /c "\".\\mvnw.cmd\" -Dexec.vmArgs=-Dfile.encoding=UTF-8 \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.executable=C:\\Users\\raul.farias\\Downloads\\Oracle_JDK-24\\bin\\java.exe -Dexec.mainClass=com.gildedrose.TexttestFixture -Dexec.classpathScope=test -DskipTests=true -Dexec.appArgs= -Dmaven.ext.class.path=C:\\Users\\raul.farias\\.vscode\\extensions\\oracle.oracle-java-24.1.2\\nbcode\\java\\maven-nblib\\netbeans-eventspy.jar --no-transfer-progress process-test-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::loadLibrary has been called by org.fusesource.hawtjni.runtime.Library in an unnamed module (file:/C:/Users/raul.farias/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/lib/jansi-1.17.1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Users/raul.farias/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/lib/guava-25.1-android.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Scanning for projects...
+
+------------------< com.gildedrose:gilded-rose-kata >-------------------
+Building gilded-rose-kata 0.0.1-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- maven-resources-plugin:2.6:resources (default-resources) @ gilded-rose-kata ---
+Using 'UTF-8' encoding to copy filtered resources.
+skip non existing resourceDirectory C:\Users\raul.farias\Documents\facul\6 semestre\engs\refatoracaoCodigoFonte\src\main\resources
+
+--- maven-compiler-plugin:3.1:compile (default-compile) @ gilded-rose-kata ---
+Nothing to compile - all classes are up to date
+
+--- maven-resources-plugin:2.6:testResources (default-testResources) @ gilded-rose-kata ---
+Using 'UTF-8' encoding to copy filtered resources.
+skip non existing resourceDirectory C:\Users\raul.farias\Documents\facul\6 semestre\engs\refatoracaoCodigoFonte\src\test\resources
+
+--- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gilded-rose-kata ---
+Nothing to compile - all classes are up to date
+
+--- exec-maven-plugin:3.1.0:exec (default-cli) @ gilded-rose-kata ---
+OMGHAI!
+-------- day 0 --------
+name, sellIn, quality
++5 Dexterity Vest, 10, 20
+Aged Brie, 2, 0
+Elixir of the Mongoose, 5, 7
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 15, 20
+Backstage passes to a TAFKAL80ETC concert, 10, 49
+Backstage passes to a TAFKAL80ETC concert, 5, 49
+Conjured Mana Cake, 3, 6
+
+-------- day 1 --------
+name, sellIn, quality
++5 Dexterity Vest, 9, 19
+Aged Brie, 1, 1
+Elixir of the Mongoose, 4, 6
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 14, 21
+Backstage passes to a TAFKAL80ETC concert, 9, 50
+Backstage passes to a TAFKAL80ETC concert, 4, 50
+Conjured Mana Cake, 2, 5
+
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  1.999 s
+Finished at: 2025-10-22T11:58:55-03:00
+------------------------------------------------------------------------
